@@ -1,0 +1,62 @@
+.formWrapper {
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  min-height: 250;
+  height: 400;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  align-content: flex-start;
+}
+
+.noteButton {
+  border: none;
+  height: 2em;
+  padding: 2px 20px;
+  margin: 1px 4px 10px 4px;
+  border-radius: 4px;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  background-color: #1f4053;
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.noteButton:hover {
+  background-color: #2b80b9;
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.noteInput {
+  max-width: 200px;
+  height: 2em;
+  min-width: 80px;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 1px 4px 0px 4px;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+  background-color: rgba(34, 49, 63, 0.8);
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.noteInput:focus {
+  background-color: #e4f1fe;
+  color: #111;
+  transition: 0.2s ease-in;
+}
+
+.noteBodyInput {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 80px;
+  font-size: 1em;
+  padding: 10px;
+  margin: 1px 1px 4px 4px;
+  font-family: "Lato", sans-serif;
+  background-color: rgba(34, 49, 63, 0.8);
+  color: #fff;
+  transition: 0.2s ease-out;
+}

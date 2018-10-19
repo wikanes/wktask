@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Nunito");
+@import url("https://use.fontawesome.com/releases/v5.4.1/css/regular.css");
+@import url("https://use.fontawesome.com/releases/v5.4.1/css/solid.css");
+@import url("https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css");
+
+html {
+  min-height: 50%;
+}
+
+body {
+  background: #000;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(47, 71, 94, 0.466),
+    rgba(34, 126, 180, 0.904)
+  );
+}
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.notesHeader {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 5%;
+  min-height: 1.8em;
+  max-height: 2em;
+  font-size: 2.3em;
+  color: #33c99c;
+  font-family: "Nunito", cursive;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  padding: 8px 0px 10px 0px;
+  margin-bottom: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 10px #111111;
+  display: block;
+  box-shadow: 0px 5px 3px 2px rgba(0, 0, 0, 0.33);
+}
+
+.notesBodyWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  overflow: auto;
+  flex-direction: row;
+}
+
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 80%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.sideMenu {
+  display: flex;
+  flex-direction: column;
+  flex: 10%;
+  min-width: 100px;
+  padding: 10px;
+  justify-content: left;
+}
+
+.mymenu {
+  height: 3em;
+}
